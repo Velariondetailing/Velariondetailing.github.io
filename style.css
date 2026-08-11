@@ -103,7 +103,7 @@ body {
 
 .nav-links .nav-btn {
     background-color: #B8A27A;
-    color: white;
+    color: white !important;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 600;
@@ -111,7 +111,7 @@ body {
 
 .nav-links .nav-btn:hover {
     background-color: #9f895f;
-    color: white;
+    color: white !important;
 }
 
 /* Hero Section */
