@@ -54,6 +54,12 @@ body {
     color: #C9A45C;
     line-height: 1;
 }
+
+.logo-divider {
+    width: 1px;
+    height: 42px;
+    background: #C9A45C;
+}
 .nav-links {
     display: flex;
     list-style: none;
