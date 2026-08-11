@@ -39,6 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .logo {
@@ -146,7 +147,7 @@ body {
 }
 
 .about .container {
-    max-width: 900px;
+    max-width: 1400px;
 }
 
 .about h2 {
