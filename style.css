@@ -64,8 +64,8 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #2a2a2a 100%);
-    color: var(--white);
+    background: linear-gradient(135deg, #f5f3f0 0%, #ffffff 100%);
+    color: var(--text-color);
     padding: 100px 20px;
     text-align: center;
     min-height: 400px;
