@@ -41,10 +41,10 @@ body {
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #C9A45C;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
 }
 
 .nav-links {
