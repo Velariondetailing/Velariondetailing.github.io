@@ -59,7 +59,30 @@ body {
     width: 1px;
     height: 42px;
     background: #C9A45C;
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
 }
+
+.logo-main {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #1A1A1A;
+}
+
+.logo-sub {
+    font-family: Arial, sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #C9A45C;
+    margin-top: 6px;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
