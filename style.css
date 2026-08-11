@@ -65,7 +65,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #f5f3f0 0%, #ffffff 100%);
+    background: url('hero-velarion.png') center center / cover no-repeat;
     color: var(--text-color);
     padding: 100px 20px;
     text-align: center;
