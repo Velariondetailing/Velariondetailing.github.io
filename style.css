@@ -116,7 +116,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('hero-velarion.png') center center / cover no-repeat;
+    background: url('hero-new.png') center center / cover no-repeat;
     color: var(--text-color);
     padding: 100px 20px;
     text-align: center;
