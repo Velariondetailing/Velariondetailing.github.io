@@ -293,6 +293,11 @@ body {
         letter-spacing: 2px;
         flex-wrap: wrap;
     }
+
+    .portfolio-placeholder {
+    height: 360px;
+}
+    
 }
 
 
