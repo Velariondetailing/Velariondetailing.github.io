@@ -697,4 +697,32 @@ body {
     .contact-item {
         padding: 1.5rem;
     }
+
+    .contact {
+    padding: 65px 20px 70px;
+}
+
+.contact-header {
+    margin-bottom: 38px;
+}
+
+.contact-info {
+    gap: 12px;
+}
+
+.contact-item {
+    padding: 22px 16px;
+}
+
+.contact-item h3 {
+    margin-bottom: 10px;
+}
+
+    .portfolio {
+    padding-top: 65px;
+}
+
+.services {
+    padding-top: 55px;
+}
 }
