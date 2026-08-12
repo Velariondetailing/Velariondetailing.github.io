@@ -130,7 +130,7 @@ body {
     min-height: 650px;
     display: flex;
     align-items: center;
-    padding: 60px 7%;
+    padding: 60px 9%;
 }
 
 .hero-content {
@@ -160,6 +160,7 @@ body {
     line-height: 1.6;
     letter-spacing: 1px;
     margin-bottom: 32px;
+    font-weight: 400;
     color: white;
 }
 
