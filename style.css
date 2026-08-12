@@ -465,52 +465,87 @@ body {
 
 /* Contact Section */
 .contact {
-    padding: 80px 20px;
-    background-color: var(--white);
+    padding: 90px 20px 100px;
+    background-color: #FCFBF8;
 }
 
-.contact h2 {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--primary-color);
+.contact .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    max-width: 760px;
+    margin: 0 auto 55px;
     text-align: center;
+}
+
+.contact-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: #B8A27A;
+    margin-bottom: 22px;
+}
+
+.contact-header h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #1A1A1A;
+    margin: 0 0 26px;
+}
+
+.contact-line {
+    width: 55px;
+    height: 1px;
+    background-color: #B8A27A;
+    margin: 0 auto 26px;
+}
+
+.contact-header p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #666666;
 }
 
 .contact-info {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    max-width: 900px;
-    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
 }
 
 .contact-item {
-    background-color: var(--light-bg);
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     text-align: center;
+    padding: 30px 20px;
+    border-top: 1px solid #D9CFBE;
 }
 
 .contact-item h3 {
-    color: var(--accent-color);
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #9F895F;
+    margin-bottom: 14px;
 }
 
 .contact-item p {
-    color: #555;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #555555;
 }
 
 .contact-item a {
-    color: var(--accent-color);
+    color: #555555;
     text-decoration: none;
-    font-weight: 600;
 }
 
 .contact-item a:hover {
-    text-decoration: underline;
+    color: #9F895F;
 }
 
 /* Footer */
